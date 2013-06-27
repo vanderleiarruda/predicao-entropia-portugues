@@ -1,0 +1,24 @@
+﻿<Window x:Class="Hangman.wTabelaEstatistica"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Tabela Estatistica" Height="353" Width="390" WindowStartupLocation="CenterScreen" Icon="/Hangman;component/Imagens/1372309501_33993.ico">
+    <Grid>
+        <DataGrid x:Name="dgEstatistica" Margin="27,29,7,36"/>
+        <Button x:Name="btnAtualizar" Content="Atualizar" Margin="0,0,7,10" HorizontalAlignment="Right" Width="75" Height="20" VerticalAlignment="Bottom" Click="btnAtualizar_Click"/>
+        <Label Content="Letras Conhecidas + 1" Margin="27,6,10,0" VerticalAlignment="Top" HorizontalContentAlignment="Center"/>
+        <Label Content="Tentativas" Margin="-97,0,0,135" RenderTransformOrigin="0.5,0.5" TextOptions.TextHintingMode="Animated" HorizontalContentAlignment="Center" Height="26" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="224">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.669"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="btnSalvar" Content="Salvar" HorizontalAlignment="Right" Margin="0,0,87,10" VerticalAlignment="Bottom" Width="75" Click="btnSalvar_Click"/>
+        <Button x:Name="btnCarregar" Content="Carregar" HorizontalAlignment="Right" Margin="0,0,167,10" VerticalAlignment="Bottom" Width="75" Click="btnCarregar_Click"/>
+        <Button x:Name="btnLimpar" Content="Limpar" HorizontalAlignment="Right" Margin="0,0,247,10" VerticalAlignment="Bottom" Width="75" Click="btnLimpar_Click"/>
+
+    </Grid>
+</Window>
