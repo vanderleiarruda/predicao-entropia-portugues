@@ -3,9 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="About" Height="230" Width="516" WindowStartupLocation="CenterScreen" Icon="/Hangman;component/Imagens/1372309501_33993.ico">
     <Grid>
-        <Label Content="https://code.google.com/p/predicao-entropia-portugues" Height="28" HorizontalAlignment="Left" Margin="12,150,0,0" Name="label1" VerticalAlignment="Top" Width="283" />
-        <Label Content="About:" Height="28" HorizontalAlignment="Left" Margin="12,130,0,0" Name="label2" VerticalAlignment="Top" />
-        <Label Content="Licence: GNU GPL v3" Height="28" HorizontalAlignment="Right" Margin="0,150,12,0" Name="label3" VerticalAlignment="Top" Width="112" />
+        <Label Content="https://code.google.com/p/predicao-entropia-portugues" Height="28" Margin="12,119,0,0" Name="label1" VerticalAlignment="Top" HorizontalAlignment="Left" Width="352" />
+        <Label Content="About:" Height="28" HorizontalAlignment="Left" Margin="12,99,0,0" Name="label2" VerticalAlignment="Top" />
+        <Label Content="Licence: GNU GPL v3" Height="28" HorizontalAlignment="Right" Margin="0,151,239,0" Name="label3" VerticalAlignment="Top" Width="243" />
         <Image Height="67" HorizontalAlignment="Left" Margin="12,12,0,0" Name="image1" Stretch="None" VerticalAlignment="Top" Width="86" Source="/Hangman;component/Imagens/1372309501_33993.ico" />
     </Grid>
 </Window>
