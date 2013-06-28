@@ -49,7 +49,7 @@
             </Canvas>
         </GroupBox>
         <Button x:Name="btnTabela" Content="Tabela" HorizontalAlignment="Left" Margin="712,333,0,0" VerticalAlignment="Top" Width="75" Click="btnTabela_Click"/>
-        <Label Content="Previsibilidade da Língua Portuguesa" Margin="317,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="190"/>
+        <Label Content="Previsibilidade da Língua Portuguesa" Margin="317,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="229"/>
         <GroupBox Header="Sentenças" HorizontalAlignment="Left" Margin="317,136,0,0" VerticalAlignment="Top" Height="67" Width="487">
             <Canvas HorizontalAlignment="Left" Height="45" VerticalAlignment="Top" Width="475">
                 <Button x:Name="btnVoltar" Content="&lt;&lt;" Canvas.Left="10" Canvas.Top="15" Width="75" Click="btnVoltar_Click"/>

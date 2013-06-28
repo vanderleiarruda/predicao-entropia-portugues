@@ -7,7 +7,7 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button Content="Teste 1 - Previsibilidade da Língua Portuguesa Escrita" Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Left" Margin="10,30,0,0" Name="btnSentecas" VerticalAlignment="Top" Width="293" Click="btnSentecas_Click">
+        <Button Content="Teste 1 - Previsibilidade da Língua Portuguesa Escrita" Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Left" Margin="10,30,0,0" Name="btnSentecas" VerticalAlignment="Top" Width="408" Click="btnSentecas_Click">
             <Button.Style>
                 <Style TargetType="Button">
                     <Style.Triggers>
@@ -24,7 +24,7 @@
                 </ControlTemplate>
             </Button.Template>
         </Button>
-        <Button Content="Teste 2 - Previsibilidade da Centésima Letra" Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Left" Margin="10,64,0,0" Name="btnAquisicao" VerticalAlignment="Top" Width="222" Click="btnAquisicao_Click">
+        <Button Content="Teste 2 - Previsibilidade da Centésima Letra" Grid.ColumnSpan="2" Height="20" HorizontalAlignment="Left" Margin="10,64,0,0" Name="btnAquisicao" VerticalAlignment="Top" Width="408" Click="btnAquisicao_Click">
             <Button.Style>
                 <Style TargetType="Button">
                     <Style.Triggers>
