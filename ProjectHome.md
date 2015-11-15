@@ -1,0 +1,2 @@
+Esse programa permite a realização de estimativas de previsibilidade da língua portuguesa escrita, baseado no trabalho de Shannon ("Prediction and Entropy of Printed English", 1951).
+Os resultados obtidos deram origem ao artigo "Análise da Entropia e Redundância da Língua Portuguesa Escrita".
